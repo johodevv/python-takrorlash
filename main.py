@@ -265,3 +265,398 @@
 
 # else:
 #     print(0)
+
+
+
+# a=10
+# sum=0
+
+# for x in range(1,a+1):
+#     sum+=x
+# print(sum)
+
+
+# a=10
+# sum=0
+
+# for x in range(1,a+1):
+#     if x%2==0:
+#         sum+=x
+# print(sum)
+
+
+
+# a=10
+# sum=0
+
+# for x in range(1,a+1):
+#     if x%2!=0:
+#         sum+=x
+# print(sum)
+
+
+
+# a=35
+# sum=0
+
+# for x in range(1,a+1):
+#     if x%5==0:
+#         sum+=x
+# print(sum)
+
+
+
+# a=10
+# sum=0
+
+# for x in range(1,a+1):
+#     if x%2==0:
+#         sum+=1
+# print(sum)
+
+
+
+# a=2
+# b=8
+# sum=0
+
+# for x in range(a,b):
+#     sum+=x
+# print(sum)
+
+# a=4
+# b=15
+# soni=0
+
+
+# for x in range(a,b):
+#     if x%2==0:
+#         soni+=1
+# print(soni)
+
+
+
+# a=4
+# b=15
+# sum=0
+
+# for x in range(a,b):
+#     if x%3==0:
+#         sum+=x
+# print(sum)
+
+
+# a=6
+# b=16
+# sum=0
+
+# for x in range(a,b):
+#     if x%2==0 and x%3==0:
+#         sum+=1
+
+# print(sum)
+
+
+# a=-1
+# b=10
+# sum=0
+
+
+# for x in range(a,b+1):
+#     if x>0:
+#         sum+=1
+
+# print(sum)
+
+
+# a=4
+# p=1
+
+# for x in range(0,5):
+#     p=p*a
+# print(p)
+
+
+
+# a=3
+# n=4
+# p=1
+
+# for x in range(0,n):
+#     p=p*a
+# print(p)
+
+
+# a=3
+# n=4
+# p=a
+# sum=a
+
+# for x in range(1,n):
+#     a=(a*10)+p
+#     sum+=a
+# print(sum)
+
+
+# a=7
+# sum=0
+
+# for x in range(1,a):
+#     if a%x==0:
+#         sum+=x
+# if a==sum:
+#     print(True)
+# else:
+#     print(False)
+
+
+# n=6
+
+# sum=0
+
+# for x in range(1,n+1):
+#     sum+=x*x
+# print(sum)
+
+
+# n=154
+# p=n
+# c=n
+# sum=0
+# nechaxona=0
+
+# while n>0:
+#     nechaxona+=1
+#     n=n//10
+# while p>0:
+#     sum+=(p%10)**nechaxona
+#     p=p//10
+# if c==sum:
+#     print(True)
+# else:
+#     print(False)
+
+
+# n=8
+# sum_val=0
+
+# for x in range(1,n+1):
+#     if n%x==0:
+#         sum_val+=1
+# if sum_val==2:
+#     print(True)
+# else:
+#     print(False)
+
+
+# n=15431
+# nechaxona=0
+
+# while n>0:
+#     nechaxona+=1
+#     n=n//10
+# print(nechaxona)
+
+
+
+# n=127
+# sum=0
+
+# while n!=0:
+#     sum+=n%10
+#     n=n//10
+# print(sum)
+
+
+# n=1234
+# teskarison=0
+
+
+# while n!=0:
+#     sum=n%10
+#     teskarison=teskarison*10+sum
+#     n=n//10
+# print(teskarison)
+
+
+
+# n=12321 
+# temp=n
+# teskarison=0
+
+
+# while n!=0:
+#     sum=n%10
+#     teskarison=teskarison*10+sum
+#     n=n//10
+
+# if temp==teskarison:
+#     print(True)
+# else:
+#     print(False)
+
+
+
+# n=5
+# f=1
+
+# for x in range(1,n+1):
+#     f*=x
+# print(f)
+
+
+# n=10
+# sum=0
+
+
+# for x in range(1,n+1):
+#     temp=1/x
+#     sum+=temp
+# print(sum)
+
+
+# n=5
+
+# for x in range(0,n):
+#     for j in range(0,n):
+#         print("*", end="")
+#     print()
+
+
+# n=5
+
+
+# for x in range(0,10):
+#     for i in range(0,10):
+#         print(f"({x},{i})", end="")
+#     print()
+
+
+
+# n=5
+
+
+# for x in range(0,n):
+#     for i in range(0,n):
+#         if x==0 or x==n-1 or i==0:
+#             print(f"({x},{i})", end="")
+#     print()
+
+
+
+# n=10
+
+
+# for x in range(0,n):
+#     for i in range(0,n):
+#         if x==0 or x==n-1 or i==0 or i%2==0:
+#             print(f"({x},{i})", end="")
+#         else:
+#             print("     ", end="")
+#     print()
+
+
+
+# n=10
+# sum=0
+
+
+# for x in range(0,n):
+#     for i in range(0,n):
+#         print(f"{sum:3}", end="")
+#         sum+=1
+#     print()
+
+
+
+# n=5
+
+# for x in range(1,n+1):
+#     for j in range(1,n+1):
+#         if x==j:
+#             print("*", end="")
+#         else:
+#             print(" ", end="")
+#     print()
+
+# n=5
+
+# for x in range(n+1):
+#     for j in range(n+1):
+#         if x==j:
+#             print(f"({x},{j})", end="")
+#         else:
+#             print(" ", end="")
+#     print()
+
+
+# n=5
+
+
+# for x in range(n,0,-1):
+#     for j in range(n+1):
+#         if x==j:
+#             print("*", end="")
+#         else:
+#             print(" ", end="")
+#     print()
+
+
+
+# n=5
+
+# sum=""
+# for x in range(n):
+#     for j in range(n+1):
+#         if x==j:
+#             sum+="*"
+#     print(sum)
+
+
+
+# n=5
+
+# for x in range(n):
+#     for j in range(n):
+#         if x<=j:
+#             print("*", end="")
+#         else:
+#             print(" ", end="")
+#     print()
+
+
+# n=5
+
+
+# for x in range(1,n+1):
+#     for j in range(1,n+1):
+#         if x>=j:
+#             print(f"{j}", end="")
+#         else:
+#             print("", end="")
+#     print()
+
+
+# n=5
+
+
+# for x in range(1,n+1):
+#     for j in range(1,n+1):
+#         if x>=j:
+#             print(f"{x}", end="")
+#         else:
+#             print(" ", end="")
+#     print()
+
+
+
+n=5
+
+
+for x in range(n):
+    for j in range(n+1):
+        if x!=j:
+            print(" ", end="")
+        else:
+            print("*", end="")
+    print()
