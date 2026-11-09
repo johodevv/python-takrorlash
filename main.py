@@ -650,13 +650,72 @@
 
 
 
-n=5
+# n=5
 
 
-for x in range(n):
-    for j in range(n+1):
-        if x!=j:
-            print(" ", end="")
-        else:
-            print("*", end="")
-    print()
+# for x in range(n):
+#     for j in range(n+1):
+#         if x!=j:
+#             print(" ", end="")
+#         else:
+#             print("*", end="")
+#     print()
+
+
+
+
+# Method masalalari
+
+
+# def show():
+#     return "dasturlash.uz"
+
+
+
+# def showstring(a: str):
+#     return a
+
+
+# def i(a , b):
+#     return a , b 
+
+
+
+# def qoshish(a: int , b: int):
+#     return a+b
+
+
+# def perim(a:int , b: int):
+#     return 2*(a+b)
+
+# def kopayt(a:int , b:int):
+#     return a*b
+
+
+# def convertToString(a):
+#     s=""
+#     for x in a:
+#         s+=x
+#     return s
+
+
+# def m(a: int):
+#     if a>=0:
+#         return a,"musbat"
+#     else:
+#         return a,"manfiy"
+
+# def son(a: int):
+#     s=0
+#     while a!=0:
+#         s+=a%10
+#         a=a//10
+#     return s
+
+
+# def aylanauzunligi(r: int):
+#     return r*2*3.14    
+
+
+
+# array masalalari
