@@ -719,3 +719,85 @@
 
 
 # array masalalari
+
+arr=[6, 25, 91, 23, 72, 9, 18, 6]
+a=0
+for x in range(0,len(arr)):
+    if a<arr[x]:
+        a=arr[x]
+print(a)
+
+
+b=arr[0]
+for c in range(0,len(arr)):
+    if b>arr[c]:
+        b=arr[c]
+print(b)
+
+summ=0
+for n in arr:
+    summ+=n
+ortacha_qiymat=summ/len(arr)
+print(ortacha_qiymat)
+
+
+n=2
+true_false=0
+for m in arr:
+    if n==m:
+        true_false=True
+        break
+    else:
+        true_false=False
+print(true_false)
+
+
+if n>=0 and n<=len(arr):
+    print(arr[n])
+else:
+    print(0)
+
+
+mas=[]
+mas.append(n)
+for j in arr:
+    mas.append(j)
+print(mas)
+
+
+a=1
+b=9
+mass=[]
+
+for x in range(len(arr)):
+    if x==a:
+        mass.append(b)
+    else:
+        mass.append(arr[x])
+print(mass)
+
+
+a=7
+ms=[]
+
+for x in range(len(arr)):
+    if a!=x:
+        ms.append(arr[x]) 
+print(ms)
+
+
+mas=[]
+
+for x in arr:
+    mas.insert(0, x)
+print(mas)
+
+
+mas=[]
+n=91
+soni=0
+for x in arr:
+    if x==n:
+        soni+=1
+print(soni)
+
