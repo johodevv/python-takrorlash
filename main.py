@@ -794,10 +794,12 @@ print(mas)
 
 
 mas=[]
-n=91
+n=6
 soni=0
 for x in arr:
     if x==n:
         soni+=1
 print(soni)
+
+
 
